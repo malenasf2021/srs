@@ -1,9 +1,9 @@
 # Software Requirements Specification (SRS)  
-**For:** `<Hola>`  
+**For:** `Hola`  
 **Version:** `1.0`  
-**Author:** `<Your Name/Team>`  
-**Organization:** `<Company/Institution>`  
-**Date:** `<YYYY-MM-DD>`  
+**Author:** `Malena Sánchez`  
+**Organization:** `Ce.R.P. Suroeste Colonia`  
+**Date:** `2025-04-30>`  
 
 ---
 
