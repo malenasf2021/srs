@@ -20,4 +20,4 @@ Me interesa seguir creciendo en la aplicación de las tecnologías digitales en 
 
 > “El aprendizaje es un tesoro que seguirá a su dueño a todas partes.” – Proverbio chino
 
-Gracias por visitar mi perfil 😊🤓🧉
+Gracias por visitar mi perfil 🤓🧉
