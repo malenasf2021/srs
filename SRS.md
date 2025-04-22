@@ -38,21 +38,37 @@ Fuera del alcance: `<enumerar las funcionalidades excluidas>`.
 ---
 
 ## **2. Descripción general**  
-### **2.1 Product Perspective**  
-`<Example:>`  
+### **2.1 Perspectiva del producto**  
+`<Describa el contexto y el origen del producto que se especifica en este ERS. Por ejemplo, indique si este producto es una continuación dentro de una familia de productos, un reemplazo de ciertos sistemas existentes o un producto nuevo e independiente. Si el ERS define un componente de un sistema más grande, relacione los requisitos del sistema general con la funcionalidad de este software e identifique las interfaces entre ambos. Puede ser útil incluir un diagrama simple que muestre los componentes principales del sistema general, las interconexiones entre subsistemas y las interfaces externas.>`
+`<Ejemplo:>`  
 This is a standalone system but integrates with `<External System X>` via `<API/Protocol>`.  
 
-### **2.2 Funcionalidades del producto**  
-`<List major features in bullet points. Example:>`  
+### **2.2 Funcionalidades del producto** 
+`<Resuma las principales funcionalidades que contiene el producto o las funciones significativas que realiza o permite realizar al usuario. Los detalles se presentarán en la Sección 3, por lo que aquí solo se necesita un resumen a alto nivel. Organice las funciones de manera que sean comprensibles para cualquier lector del ERS. Suele ser útil una representación visual de los principales grupos de requisitos relacionados y cómo se vinculan entre sí, como un diagrama de flujo de datos de alto nivel o un diagrama de clases.>` 
+`<Ejemplo:>`  
 - User authentication (OAuth 2.0).  
 - Dashboard with real-time analytics.  
 
 ### **2.3 Clases y características de usuarios**  
-`<Example:>`  
-| User Class       | Characteristics          | Priority |  
-|------------------|--------------------------|----------|  
-| Admin            | Full system access       | High     |  
-| End User         | Limited permissions      | Medium   |  
+`<Identifique las distintas clases de usuarios que se prevé utilizarán este producto. Las clases de usuarios pueden diferenciarse según la frecuencia de uso, el subconjunto de funciones del producto que utilizan, el nivel de experiencia técnica, los niveles de seguridad o privilegios, el nivel educativo o la experiencia. Describa las características pertinentes de cada clase de usuario. Algunos requisitos pueden aplicarse únicamente a ciertas clases de usuarios. Distinga las clases de usuarios prioritarias de aquellas cuya satisfacción es menos crítica.>`
+`<Ejemplo:>`  
+| Tipos de usuarios | Características         | Prioridad|  
+|------------------ |-------------------------|----------|  
+| Admin             | Full system access      | High     |  
+| End User          | Limited permissions     | Medium   |  
+
+### **2.4 Entorno operativo**  
+`<Describa el entorno en el que funcionará el software, incluyendo la plataforma de hardware, el sistema operativo y sus versiones, y cualquier otro componente o aplicación de software con los que deba coexistir sin inconvenientes.>`
+
+### **2.5 Restricciones de diseño e implementación**  
+`<Describa cualquier elemento o cuestión que limite las opciones disponibles para los desarrolladores. Estas pueden incluir: políticas corporativas o normativas; limitaciones de hardware (requisitos de tiempo, memoria); interfaces con otras aplicaciones; tecnologías, herramientas y bases de datos específicas a utilizar; operaciones en paralelo; requisitos de lenguajes de programación; protocolos de comunicación; consideraciones de seguridad; convenciones de diseño o estándares de programación (por ejemplo, si la organización del cliente será responsable del mantenimiento del software entregado).>`
+
+### **2.6 Documentación para el usuario**  
+`<Enumere los componentes de la documentación para el usuario (como manuales de usuario, ayudas en línea y tutoriales) que se entregarán junto con el software. Identifique cualquier formato o estándar conocido para la entrega de dicha documentación.>`
+
+### **2.7 Supuestos y dependencias**  
+`<Enumere cualquier factor asumido (en contraposición a hechos conocidos) que pueda afectar los requisitos establecidos en este ERS. Estos pueden incluir componentes de terceros o comerciales que se planea utilizar, cuestiones relacionadas con el entorno de desarrollo u operativo, o restricciones. El proyecto podría verse afectado si estos supuestos son incorrectos, no se comparten o cambian. También identifique cualquier dependencia del proyecto con factores externos, como componentes de software que se pretende reutilizar de otro proyecto, a menos que ya estén documentados en otro lugar (por ejemplo, en el documento de visión y alcance o en el plan del proyecto).>`
+
 
 ---
 
