@@ -1,9 +1,9 @@
-# Software Requirements Specification (SRS)  
-**For:** `Hola`  
+# Especificación de Requisitos del Software (SRS)  
+**Para:** `Programación II`  
 **Version:** `1.0`  
-**Author:** `Malena Sánchez`  
-**Organization:** `Ce.R.P. Suroeste Colonia`  
-**Date:** `2025-04-30>`  
+**Autor:** `Malena Sánchez`  
+**Organización:** `Ce.R.P. SurOeste Colonia`  
+**Fecha:** `2025-04-30>`  
 
 ---
 
