@@ -33,6 +33,7 @@ Fuera del alcance: `<enumerar las funcionalidades excluidas>`.
 
 ### **1.5 Referencias**  
 `<Enumere cualquier otro documento o dirección web a la que se haga referencia en este ERS. Estos pueden incluir guías de estilo de interfaz de usuario, contratos, normas, especificaciones de requisitos del sistema, documentos de casos de uso o un documento de visión y alcance. Proporcione suficiente información para que el lector pueda acceder a una copia de cada referencia, incluyendo el título, autor, número de versión, fecha y fuente o ubicación.>`
+
 `<Ejemplo:>`  
 - [Vision Document](#) (Link if available).  
 - ISO 25010 Standard for Software Quality.  
