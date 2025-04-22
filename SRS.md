@@ -42,17 +42,20 @@ Fuera del alcance: `<enumerar las funcionalidades excluidas>`.
 ## **2. Descripción general**  
 ### **2.1 Perspectiva del producto**  
 `<Describa el contexto y el origen del producto que se especifica en este ERS. Por ejemplo, indique si este producto es una continuación dentro de una familia de productos, un reemplazo de ciertos sistemas existentes o un producto nuevo e independiente. Si el ERS define un componente de un sistema más grande, relacione los requisitos del sistema general con la funcionalidad de este software e identifique las interfaces entre ambos. Puede ser útil incluir un diagrama simple que muestre los componentes principales del sistema general, las interconexiones entre subsistemas y las interfaces externas.>`
+
 `<Ejemplo:>`  
 This is a standalone system but integrates with `<External System X>` via `<API/Protocol>`.  
 
 ### **2.2 Funcionalidades del producto** 
 `<Resuma las principales funcionalidades que contiene el producto o las funciones significativas que realiza o permite realizar al usuario. Los detalles se presentarán en la Sección 3, por lo que aquí solo se necesita un resumen a alto nivel. Organice las funciones de manera que sean comprensibles para cualquier lector del ERS. Suele ser útil una representación visual de los principales grupos de requisitos relacionados y cómo se vinculan entre sí, como un diagrama de flujo de datos de alto nivel o un diagrama de clases.>` 
+
 `<Ejemplo:>`  
 - User authentication (OAuth 2.0).  
 - Dashboard with real-time analytics.  
 
 ### **2.3 Clases y características de usuarios**  
 `<Identifique las distintas clases de usuarios que se prevé utilizarán este producto. Las clases de usuarios pueden diferenciarse según la frecuencia de uso, el subconjunto de funciones del producto que utilizan, el nivel de experiencia técnica, los niveles de seguridad o privilegios, el nivel educativo o la experiencia. Describa las características pertinentes de cada clase de usuario. Algunos requisitos pueden aplicarse únicamente a ciertas clases de usuarios. Distinga las clases de usuarios prioritarias de aquellas cuya satisfacción es menos crítica.>`
+
 `<Ejemplo:>`  
 | Tipos de usuarios | Características         | Prioridad|  
 |------------------ |-------------------------|----------|  
