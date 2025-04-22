@@ -166,4 +166,7 @@ This is a standalone system but integrates with `<External System X>` via `<API/
 - **API**: Application Programming Interface.  
 
 ### **Apéndice B: Modelos de Análisis**  
-- `TBD`: Maximum password length policy.  
+- `TBD`: Maximum password length policy.
+
+### **Apéndice C: Lista de Problemas**  
+`<Esta es una lista dinámica de los problemas abiertos relacionados con los requisitos que aún deben resolverse, incluyendo elementos marcados como “TBD” (por determinar), decisiones pendientes, información necesaria, conflictos que están a la espera de resolución, entre otros.>`  
