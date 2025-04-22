@@ -18,6 +18,7 @@ Este documento describe los requisitos para el `<Nombre del Proyecto>`, un `<des
 
 ### **1.3 Público objetivo y sugerencias de lectura**  
 `<Describa los diferentes tipos de lectores a los que está destinado este documento, como desarrolladores, gerentes de proyecto, personal de marketing, usuarios, testers y redactores de documentación. Describa el contenido del resto de este ERS y cómo está organizado. Sugiérase una secuencia para la lectura del documento, comenzando por las secciones introductorias y continuando con las secciones más pertinentes para cada tipo de lector.>`
+
 `<Ejemplo:>`  
 - **Desarrolladores**: implementan el sistema.  
 - **Testers**: verifican requerimientos.  
