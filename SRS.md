@@ -93,7 +93,6 @@ This is a standalone system but integrates with `<External System X>` via `<API/
 ### **3.2 Característica del sistema 2 (y así sucesivamente)**  
 `<..........>` 
 
-
 ---
 
 ## **4. Requisitos de interfaces Externas**  
