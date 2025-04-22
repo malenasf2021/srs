@@ -26,6 +26,7 @@ Este documento describe los requisitos para el `<Nombre del Proyecto>`, un `<des
 
 ### **1.4 Alcance del proyecto**  
 `<Proporcione una breve descripción del software que se está especificando y su propósito, incluyendo los beneficios, objetivos y metas relevantes. Relacione el software con los objetivos corporativos o estrategias empresariales. Si existe un documento separado de visión y alcance, haga referencia a él en lugar de duplicar su contenido aquí. Un ERS que especifique la próxima versión de un producto en evolución debe contener su propia declaración de alcance como un subconjunto de la visión estratégica a largo plazo del producto.>`
+
 `<Ejemplo:>`  
 Este sistema reemplazará a `<sistema heredado>` y proporcionará `<enumerar los beneficios clave>`.
 Fuera del alcance: `<enumerar las funcionalidades excluidas>`.
