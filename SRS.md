@@ -90,28 +90,67 @@ This is a standalone system but integrates with `<External System X>` via `<API/
 - **REQ-1**: System shall validate credentials against `<Database/API>`.  
 - **REQ-2**: Failed attempts trigger a 5-minute lockout.  
 
+### **3.2 Característica del sistema 2 (y así sucesivamente)**  
+`<..........>` 
+
+
 ---
 
 ## **4. Requisitos de interfaces Externas**  
-### **4.1 User Interfaces**  
+### **4.1 Interfaces de usuario**  
+`<Describa las características lógicas de cada interfaz entre el producto de software y los usuarios. Esto puede incluir imágenes de pantallas de ejemplo, cualquier estándar de GUI o guías de estilo de la familia de productos que se deban seguir, restricciones de diseño de pantalla, botones y funciones estándar (por ejemplo, ayuda) que aparecerán en cada pantalla, atajos de teclado, estándares de visualización de mensajes de error, etc. Defina los componentes del software para los cuales se necesita una interfaz de usuario. Los detalles del diseño de la interfaz de usuario deben ser documentados en una especificación separada de la interfaz de usuario.>` 
+
 `<Example:>`  
 - **Login Screen**: Fields for email/password, "Forgot Password" link.  
 - **Dashboard**: Responsive layout (support for mobile/desktop).  
 
-### **4.2 Hardware Interfaces**  
+### **4.2 Interfaces de Hardware**  
+`<Describa las características lógicas y físicas de cada interfaz entre el producto de software y los componentes de hardware del sistema. Esto puede incluir los tipos de dispositivos soportados, la naturaleza de las interacciones de datos y control entre el software y el hardware, y los protocolos de comunicación que se utilizarán.>` 
+
+`<Example:>`  
+- Supports barcode scanners (USB HID standard).  
+
+### **4.3 Interfaces de Software**  
+`<Describa las conexiones entre este producto y otros componentes específicos de software (nombre y versión), incluyendo bases de datos, sistemas operativos, herramientas, bibliotecas y componentes comerciales integrados. Identifique los elementos de datos o mensajes que entran y salen del sistema y describa el propósito de cada uno. Describa los servicios necesarios y la naturaleza de las comunicaciones. Haga referencia a documentos que describan los protocolos detallados de las interfaces de programación de aplicaciones (API). Identifique los datos que se compartirán entre componentes de software. Si el mecanismo de intercambio de datos debe implementarse de una manera específica (por ejemplo, el uso de un área de datos global en un sistema operativo multitarea), especifique esto como una restricción de implementación.>` 
+
+`<Example:>`  
+- Supports barcode scanners (USB HID standard).  
+
+### **4.4 Interfaces de comunicaciones**  
+`<Describa los requisitos asociados con cualquier función de comunicación requerida por este producto, incluyendo correo electrónico, navegador web, protocolos de comunicaciones de servidores de red, formularios electrónicos, etc. Defina cualquier formato de mensaje pertinente. Identifique los estándares de comunicación que se utilizarán, como FTP o HTTP. Especifique cualquier cuestión de seguridad o cifrado en las comunicaciones, tasas de transferencia de datos y mecanismos de sincronización.>`  
+
 `<Example:>`  
 - Supports barcode scanners (USB HID standard).  
 
 ---
 
 ## **5. Otros requisitos no funcionales**  
-### **5.1 Performance**  
+### **5.1 Rendimiento**  
+`<Si existen requisitos de rendimiento para el producto en diversas circunstancias, indíquelos aquí y explique su justificativo, para ayudar a los desarrolladores a entender la intención y tomar decisiones de diseño adecuadas. Especifique las relaciones temporales en sistemas de tiempo real. Haga estos requisitos lo más específicos posible. Puede ser necesario definir requisitos de rendimiento para requisitos funcionales o características individuales.>`
+
 `<Example:>`  
 - 95% of API responses must be `<500ms` under 1000 concurrent users.  
 
-### **5.2 Security**  
+### **5.2 Seguridad**  
+`<Especifique los requisitos relacionados con posibles pérdidas, daños o perjuicios que puedan derivarse del uso del producto. Defina las salvaguardas o acciones que deben adoptarse, así como las acciones que deben evitarse. Remítase a políticas o normativas externas que establezcan cuestiones de seguridad que afecten al diseño o uso del producto. Defina las certificaciones de seguridad que deben cumplirse.>`
+
 `<Example:>`  
 - All passwords stored as bcrypt hashes.  
+
+### **5.3 Seguridad y privacidad**  
+`<Especifique cualquier requisito relativo a la seguridad o privacidad en el uso del producto o la protección de los datos que éste utilice o genere. Defina los requisitos de autenticación de identidad de los usuarios. Haga referencia a políticas o normativas externas que contengan asuntos de seguridad o privacidad que afecten al producto. Defina las certificaciones de seguridad o privacidad que deben satisfacerse.>`
+
+`<Example:>`  
+
+### **5.4 Atributos de calidad del software**  
+`<Especifique cualquier característica de calidad adicional del producto que sea importante tanto para los clientes como para los desarrolladores. Algunas a considerar son: adaptabilidad, disponibilidad, corrección, flexibilidad, interoperabilidad, mantenibilidad, portabilidad, fiabilidad, reutilización, robustez, capacidad de prueba y usabilidad. Redacte estos atributos de forma específica, cuantitativa y verificable cuando sea posible. Al menos, aclare las preferencias relativas entre varios atributos, como facilidad de uso frente a facilidad de aprendizaje.>`
+
+`<Example:>`  
+
+---
+
+## **6. Otros requisitos**  
+`<Defina cualquier otro requisito no cubierto en las secciones anteriores del ERS. Esto podría incluir requisitos de bases de datos, requisitos de internacionalización, requerimientos legales, objetivos de reutilización para el proyecto, y otros. Añada cualquier nueva sección que sea pertinente al proyecto.>`  
 
 ---
 
