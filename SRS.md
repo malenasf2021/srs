@@ -69,15 +69,24 @@ This is a standalone system but integrates with `<External System X>` via `<API/
 ### **2.7 Supuestos y dependencias**  
 `<Enumere cualquier factor asumido (en contraposición a hechos conocidos) que pueda afectar los requisitos establecidos en este ERS. Estos pueden incluir componentes de terceros o comerciales que se planea utilizar, cuestiones relacionadas con el entorno de desarrollo u operativo, o restricciones. El proyecto podría verse afectado si estos supuestos son incorrectos, no se comparten o cambian. También identifique cualquier dependencia del proyecto con factores externos, como componentes de software que se pretende reutilizar de otro proyecto, a menos que ya estén documentados en otro lugar (por ejemplo, en el documento de visión y alcance o en el plan del proyecto).>`
 
-
 ---
 
 ## **3. Características del Sistema**  
-### **3.1 Feature 1: User Authentication**  
-#### **3.1.1 Description & Priority**  
-`[High]` Allows users to log in via email or SSO.  
+`<Esta plantilla ilustra cómo organizar los requisitos funcionales del producto según las características del sistema, es decir, los servicios principales que proporciona el producto. También puede optar por organizar esta sección según los casos de uso, modo de operación, clase de usuario, clase de objeto, jerarquía funcional o una combinación de estos enfoques, lo que tenga más sentido lógico para su producto.>`
 
-#### **3.1.2 Functional Requirements**  
+### **3.1 Característica del sistema 1**  
+`<No escriba literalmente “Característica del Sistema 1”. Indique el nombre de la funcionalidad en pocas palabras.>`
+
+#### **3.1.1 Descripción y prioridad**  
+`<Proporcione una breve descripción de la funcionalidad e indique si su prioridad es Alta, Media o Baja. También puede incluir calificaciones específicas de prioridad, como beneficio, penalización, costo y riesgo (cada uno evaluado en una escala relativa del 1 al 9).>` 
+
+#### **3.1.2 Secuencias estímulo/respuesta**  
+`<Enumere las secuencias de acciones del usuario y respuestas del sistema que desencadenan el comportamiento definido para esta funcionalidad. Estas secuencias corresponden a los elementos de diálogo asociados con los casos de uso.>` 
+
+#### **3.1.3 Requisitos funcionales**  
+`<Enumere los requisitos funcionales detallados asociados con esta funcionalidad. Estas son las capacidades del software que deben estar presentes para que el usuario pueda realizar los servicios proporcionados por la funcionalidad o ejecutar el caso de uso. Incluya cómo debe responder el producto ante condiciones de error previstas o entradas inválidas. Los requisitos deben ser concisos, completos, no ambiguos, verificables y necesarios. Utilice “TBD” (por determinar) como marcador si la información necesaria aún no está disponible.>` 
+
+`<Cada requisito debe identificarse de manera única con un número de secuencia o una etiqueta significativa.>` 
 - **REQ-1**: System shall validate credentials against `<Database/API>`.  
 - **REQ-2**: Failed attempts trigger a 5-minute lockout.  
 
